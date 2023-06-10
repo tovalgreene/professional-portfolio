@@ -41,7 +41,7 @@ header nav {
 
 .content section {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
 }
 
 .content h3 {
@@ -53,8 +53,7 @@ header nav {
     border-bottom-color: white;
     border-top-color: white;
     background-color: aquamarine;
-    padding: 20px;
-
+    width: 30%;
 }
 
 #about-me p {
