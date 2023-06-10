@@ -68,8 +68,13 @@ header nav {
 }
 
 #contact-me a {
-    display: flex-start;
-    flex-direction: row;    
+    display: flex-end;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-items: stretch;
+    align-content: first baseline;
+}
+
+#number {
     padding-left: 20px; 
-    justify-content: stretch;
 }
