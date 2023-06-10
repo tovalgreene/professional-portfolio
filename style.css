@@ -39,6 +39,24 @@ header nav {
     padding: 0; 
 }
 
+.subtitle {
+    background: black;
+    position: relative;
+    text-align: center;
+    color: black;
+    padding-top: 80px;
+}
+
+.subtitle h3 {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    display: inline-block;
+    padding: .25em 0;
+    background:  rgba(72, 215, 94, 0.859) ;
+}
+
+
 .content section {
     display: flex;
     flex-direction: row;
