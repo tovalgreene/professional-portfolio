@@ -77,7 +77,6 @@ header nav {
 }
 
 #about-me p {
-    display: flex-start;
     flex-direction: row;
     width: 70%;
     padding-left: 20px;
@@ -92,9 +91,9 @@ section #work {
     float: left;
 }
 
-#work .img {
+.img {
     float: left;
-    width: fit-content;
+    width: 70%;
     display: grid;
     grid-template-columns: [col1-start] 50px [col2-start] 50px [col2-end];
     grid-template-rows: [row1-start] auto [row2-start] auto [row2-end];
@@ -116,11 +115,9 @@ section #work {
     grid-column: col2-start;
     grid-row: row2-start;
     max-width: 325px;
-    margin-left: 275px;
-    height: 314.48px;
 }
 
 #contact-me a {
-    margin-right: 20px;
+    margin-right: 10px;
     margin-left: 20px;
 }
