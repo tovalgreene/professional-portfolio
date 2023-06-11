@@ -60,6 +60,7 @@ header nav {
 .content section {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .content h3 {
@@ -81,20 +82,12 @@ header nav {
     padding-left: 20px; 
 }
 
-section #work {
-  width: 600px;
-  height: 600px;
-  text-align: center;
-  border: 15px solid black;
-}
-
-#work img {
+#work img {ß
   width: 200px;
   height: 200px;
   background-color: lightblue;
   margin: 15px;
-  padding: 20px;
-  border: 10px solid; color: darkblue;
+  display: flex-start;
 }
 
 #contact-me {
