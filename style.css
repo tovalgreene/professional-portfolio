@@ -81,6 +81,22 @@ header nav {
     padding-left: 20px; 
 }
 
+section #work {
+  width: 600px;
+  height: 600px;
+  text-align: center;
+  border: 15px solid black;
+}
+
+#work img {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+  margin: 15px;
+  padding: 20px;
+  border: 10px solid; color: darkblue;
+}
+
 #contact-me {
     flex-direction: row;
 }
