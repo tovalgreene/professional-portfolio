@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 10px;
     margin: 0;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
@@ -11,8 +11,9 @@ header {
     flex-direction: row;
     align-content: center;
     justify-content: space-between;
-    background: rgb(158,237,238);
-    background: linear-gradient(0deg, rgba(158,237,238,1) 17%, rgba(123,214,135,0.8591304347826088) 100%);}
+    background: rgb(158, 237, 238);
+    background: linear-gradient(0deg, rgba(158, 237, 238, 1) 17%, rgba(123, 214, 135, 0.8591304347826088) 100%);
+}
 
 .header h1 {
     font-size: 30px;
@@ -24,7 +25,7 @@ header {
 .highlight {
     display: inline-block;
     padding: .25em 0;
-    background:  rgba(72, 215, 94, 0.859) ;
+    background: rgba(72, 215, 94, 0.859);
     color: black;
 }
 
@@ -34,9 +35,9 @@ header nav {
     justify-content: space-between;
     justify-items: stretch;
     align-content: center;
-    margin-top: 20px; 
+    margin-top: 20px;
     margin-left: 200px;
-    padding: 0; 
+    padding: 0;
 }
 
 .subtitle {
@@ -53,7 +54,7 @@ header nav {
     right: 16px;
     display: inline-block;
     padding: .25em 0;
-    background:  rgba(72, 215, 94, 0.859) ;
+    background: rgba(72, 215, 94, 0.859);
 }
 
 
@@ -64,8 +65,8 @@ header nav {
 }
 
 .content h3 {
-    color:rgba(72, 215, 94, 0.859);
-    font-size: 40px; 
+    color: rgba(72, 215, 94, 0.859);
+    font-size: 40px;
     border: solid;
     border-left-color: white;
     border-right-color: black;
@@ -79,22 +80,56 @@ header nav {
     display: flex-start;
     flex-direction: row;
     width: 70%;
-    padding-left: 20px; 
+    padding-left: 20px;
 }
 
-#work img {ß
-  width: 200px;
-  height: 200px;
-  background-color: lightblue;
-  margin: 15px;
-  display: flex-start;
+section #work {
+    display: flex;
+}
+
+#work h3 {
+    flex-direction: row;
+    float: left;
+}
+
+#work .img {
+    float: left;
+    max-width: fit-content;
+    display: grid;
+
+    grid-template-columns: [col1-start] 50px [col2-start] 50px [col2-end];
+    grid-template-rows: [row1-start] auto [row2-start] auto [row2-end];
+}
+
+#img1 {
+    grid-column: col1-start / col2-end;
+    grid-row: row1-start;
+    max-width: 650px;
+}
+
+#img2 {
+    grid-column: col1-start;
+    grid-row: row2-start;
+    max-width: 325px;
+}
+
+#img3 {
+    grid-column: col2-start;
+    grid-row: row2-start;
+    max-width: 325px;
+    margin-left: 275px;
+    height: 314.48px;
 }
 
 #contact-me {
     display: flex;
     gap: 50px;
-    font-weight: bolder;
 }
+
+#work #img {
+    max-width: 500px;
+}
+
 
 #contact-me a {
     flex-direction: row;
