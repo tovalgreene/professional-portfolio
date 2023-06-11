@@ -94,9 +94,8 @@ section #work {
 
 #work .img {
     float: left;
-    max-width: fit-content;
+    width: fit-content;
     display: grid;
-
     grid-template-columns: [col1-start] 50px [col2-start] 50px [col2-end];
     grid-template-rows: [row1-start] auto [row2-start] auto [row2-end];
 }
@@ -121,16 +120,7 @@ section #work {
     height: 314.48px;
 }
 
-#contact-me {
-    display: flex;
-    gap: 50px;
-}
-
-#work #img {
-    max-width: 500px;
-}
-
-
 #contact-me a {
-    flex-direction: row;
+    margin-right: 20px;
+    margin-left: 20px;
 }
