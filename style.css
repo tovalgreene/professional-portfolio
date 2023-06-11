@@ -91,17 +91,11 @@ header nav {
 }
 
 #contact-me {
-    flex-direction: row;
+    display: flex;
+    gap: 50px;
+    font-weight: bolder;
 }
 
 #contact-me a {
-    display: flex-end;
     flex-direction: row;
-    justify-content: space-evenly;
-    justify-items: stretch;
-    align-content: first baseline;
-}
-
-#number {
-    padding-left: 20px; 
 }
