@@ -117,7 +117,7 @@ section #work {
     max-width: 325px;
 }
 
-#contact-me a {
-    margin-right: 10px;
-    margin-left: 20px;
+#contact-me .contact {
+    width: 70%;
+    gap: 50px;
 }
