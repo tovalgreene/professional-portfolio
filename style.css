@@ -115,6 +115,7 @@ section #work {
     grid-column: col2-start;
     grid-row: row2-start;
     max-width: 325px;
+    max-height: 314.48px;
 }
 
 #contact-me .contact {
