@@ -51,7 +51,7 @@ header nav {
     position: relative;
     text-align: center;
     color: black;
-    padding-top: 80px;
+    padding-top: 150px;
 }
 
 .subtitle h3 {
@@ -61,6 +61,15 @@ header nav {
     display: inline-block;
     padding: .25em 0;
     background: rgba(72, 215, 94, 0.859);
+}
+
+.subtitle img{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    display: inline-block;
+    padding: .25em 0;
+    max-width: 100px;
 }
 
 
@@ -106,7 +115,7 @@ section #work {
       position: relative;
   text-align: center;
   color: white;
-}
+    }
 
 #img1 {
     grid-column: col1-start / col2-end;
@@ -115,7 +124,7 @@ section #work {
     border:solid;
     border-width: 20px;
     border-color: aquamarine;
-}
+} 
 
 #img2 {
     grid-column: col1-start;
