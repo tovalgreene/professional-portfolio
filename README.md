@@ -7,7 +7,7 @@ The purpose of this project is to provide a professional portfolio showcasing To
 ## Installation
 
 ## Usage
-<img src="Tova Greene's Professional Portfolio.png">
+<img src="assets/images/Tova Greene's Professional Portfolio.png">
 
 ## License
 
