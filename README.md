@@ -8,7 +8,7 @@ The purpose of this project is to provide a professional portfolio showcasing To
 https://tovalgreene.github.io/Module-2-Challenge/
 
 ## Usage
-<img src="Tova Greene's Professional Portfolio.png">
+<img src="Tova Greene's Portfolio.png">
 
 ## License
 
