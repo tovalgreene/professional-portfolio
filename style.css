@@ -5,6 +5,12 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+img {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
 header {
     display: flex;
     padding: 20px;
@@ -97,18 +103,27 @@ section #work {
     display: grid;
     grid-template-columns: [col1-start] 50px [col2-start] 50px [col2-end];
     grid-template-rows: [row1-start] auto [row2-start] auto [row2-end];
+      position: relative;
+  text-align: center;
+  color: white;
 }
 
 #img1 {
     grid-column: col1-start / col2-end;
     grid-row: row1-start;
     max-width: 650px;
+    border:solid;
+    border-width: 20px;
+    border-color: aquamarine;
 }
 
 #img2 {
     grid-column: col1-start;
     grid-row: row2-start;
     max-width: 325px;
+    border:solid;
+    border-width: 20px;
+    border-color: aquamarine;
 }
 
 #img3 {
@@ -116,6 +131,9 @@ section #work {
     grid-row: row2-start;
     max-width: 325px;
     max-height: 314.48px;
+    border:solid;
+    border-width: 20px;
+    border-color: aquamarine;
 }
 
 #contact-me .contact {
