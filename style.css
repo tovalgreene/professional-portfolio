@@ -18,13 +18,16 @@ header {
     align-content: center;
     justify-content: space-between;
     background: rgb(158, 237, 238);
-    background: linear-gradient(0deg, rgba(158, 237, 238, 1) 17%, rgba(123, 214, 135, 0.8591304347826088) 100%);
+    background: linear-gradient(
+        0deg, 
+        rgba(158, 237, 238, 1) 17%, 
+        rgba(123, 214, 135, 0.8591304347826088) 100%
+    );
 }
 
 .header h1 {
     font-size: 30px;
-    display: flex-start;
-    flex-direction: row;
+    justify-content: flex-start;
     align-content: center;
 }
 
@@ -36,10 +39,9 @@ header {
 }
 
 header nav {
-    display: flex-end;
+    display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    justify-items: stretch;
+    justify-content: flex-end;
     align-content: center;
     margin-top: 20px;
     margin-left: 200px;
@@ -63,7 +65,7 @@ header nav {
     background: rgba(72, 215, 94, 0.859);
 }
 
-.subtitle img{
+.subtitle img {
     position: absolute;
     top: 8px;
     left: 16px;
@@ -112,25 +114,25 @@ section #work {
     display: grid;
     grid-template-columns: [col1-start] 50px [col2-start] 50px [col2-end];
     grid-template-rows: [row1-start] auto [row2-start] auto [row2-end];
-      position: relative;
-  text-align: center;
-  color: white;
-    }
+    position: relative;
+    text-align: center;
+    color: white;
+}
 
 #img1 {
     grid-column: col1-start / col2-end;
     grid-row: row1-start;
     max-width: 650px;
-    border:solid;
+    border: solid;
     border-width: 20px;
     border-color: aquamarine;
-} 
+}
 
 #img2 {
     grid-column: col1-start;
     grid-row: row2-start;
     max-width: 325px;
-    border:solid;
+    border: solid;
     border-width: 20px;
     border-color: aquamarine;
 }
@@ -140,7 +142,7 @@ section #work {
     grid-row: row2-start;
     max-width: 325px;
     max-height: 314.48px;
-    border:solid;
+    border: solid;
     border-width: 20px;
     border-color: aquamarine;
 }
