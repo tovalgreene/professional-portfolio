@@ -1,8 +1,8 @@
-## Module-2-Challenge
+## Professional Portfolio
 
-## This is the professional portfolio of Tova Greene, a full-stack developer with a liberal arts background. The portfolio showcases Tova's skills, work experience, and contact information.
+## Module 2 Challenge for Columbia Engineering Bootcamp
 
-The purpose of this project is to provide a professional portfolio showcasing Tova Greene's background, resume, and projects. The portfolio includes sections such as "About Me." "Work," and "Contact Me," allowing visitors to learn more about Tova and easily get in touch. As Tova does not yet have code to demonstrate to the wider public, the website displays the work that Tova has done outside of coding, such as The New York City Poetry Festival. In due time, Tova will replace these place-holders with notable coding projects.
+This is the professional portfolio of Tova Greene, a full-stack developer with a liberal arts background. The portfolio showcases Tova's skills, work experience, and contact information. The purpose of this project is to provide a professional portfolio showcasing Tova Greene's background, resume, and projects. The portfolio includes sections such as "About Me." "Work," and "Contact Me," allowing visitors to learn more about Tova and easily get in touch. As Tova does not yet have code to demonstrate to the wider public, the website displays the work that Tova has done outside of coding, such as The New York City Poetry Festival. In due time, Tova will replace these place-holders with notable coding projects.
 
 ## Installation
 https://tovalgreene.github.io/Module-2-Challenge/
